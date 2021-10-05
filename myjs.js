@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 370c6b4fdf8320dd9c9927d42dbd99a6abf0ac26
 const url = "https://kea21-b430.restdb.io/rest/new-collection";
 
 // The API-key
