@@ -32,9 +32,10 @@ function handleData(dogs) {
     const clone = template.cloneNode(true);
     // populate it with data
     clone.querySelector(".dogBreed").textContent = dog.Breed;
-    clone.querySelector(".Lifespan").textContent = dog.Lifespan;
-    clone.querySelector(".Size").textContent = dog.Size;
-    clone.querySelector(".Group").textContent = dog.Group;
+    clone.querySelector(".Lifespan").textContent =
+      "Life expectancy: " + dog.Lifespan + " years";
+    clone.querySelector(".Size").textContent = "Size: " + dog.Size;
+    clone.querySelector(".Group").textContent = "Group: " + dog.Group;
     clone.querySelector(".img").src = dog.Picture_url;
     clone.querySelector(".img").alt = dog.Breed;
 
