@@ -43,9 +43,3 @@ function handleData(dogs) {
     mainEl.appendChild(clone);
   });
 }
-
-//  <h2 class="dogBreed">Dog breed</h2>
-// <h2 class="lifeExp">Life expectancy</h2>
-// <h2 class="Size">Size</h2>
-// <h2 class="Group">Group</h2>
-// <img class="img" src="" alt=""></img>
